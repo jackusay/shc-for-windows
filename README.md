@@ -1,7 +1,7 @@
 # shc-for-windows
 (shc) Shell script compiler for Windows
 
-works in windows 7 64 bit
+works? in windows 7 64 bit
 
 ref https://github.com/neurobin/shc/issues/22
 
