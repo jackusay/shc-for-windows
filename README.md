@@ -86,6 +86,17 @@ taye@taye-PC MINGW64 /c/Users/taye/Downloads/xxx5
 $ shc -f d.bash
 No such file or directory
 shc: invalid file name: /bin/bash
-
 ```
 ???
+
+```sh
+#!/bin/bash.exe
+echo "ssssssdapple"
+```
+
+result:
+```
+$ shc -f d.bash
+C:\msys64\usr\local\bin\shc.exe: No error
+shc Unknown shell (bash.exe): specify [-i][-x][-l]
+```
