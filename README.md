@@ -100,3 +100,4 @@ $ shc -f d.bash
 C:\msys64\usr\local\bin\shc.exe: No error
 shc Unknown shell (bash.exe): specify [-i][-x][-l]
 ```
+???
