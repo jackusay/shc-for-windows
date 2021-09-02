@@ -83,8 +83,9 @@ make[1]: Leaving directory '/c/Users/taye/Downloads/xxx5'
 ```
 ```
 taye@taye-PC MINGW64 /c/Users/taye/Downloads/xxx5
-$ shc -f c.bash
-C:\msys64\usr\local\bin\shc.exe: No such file or directory
+$ shc -f d.bash
+No such file or directory
+shc: invalid file name: /bin/bash
 
 ```
 ???
