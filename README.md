@@ -38,6 +38,12 @@ use:
 ```
 
 Q:
+my script:
+```
+#!C:/Users/teke/bin/cmder/vendor/git-for-windows/bin/bash.exe
+echo "ssssssdapple"
+```
+result:
 ```
 λ shc -f b.bash -o aaa
 shc Unknown shell (bash.exe): specify [-i][-x][-l]
