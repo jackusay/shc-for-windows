@@ -51,3 +51,40 @@ C:\Users\teke\bin\cmder\bin\shc.exe: No error
 ```
 A:
 ???
+
+---
+in mingw64
+
+my code:
+```
+#!/bin/bash
+echo "ssssssdapple"
+```
+
+make install:
+```
+taye@taye-PC MINGW64 /c/Users/taye/Downloads/xxx5
+$ make install
+Making install in src
+make[1]: Entering directory '/c/Users/taye/Downloads/xxx5/src'
+make[2]: Entering directory '/c/Users/taye/Downloads/xxx5/src'
+ /usr/bin/mkdir -p '/usr/local/bin'
+  /usr/bin/install -c shc.exe '/usr/local/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/c/Users/taye/Downloads/xxx5/src'
+make[1]: Leaving directory '/c/Users/taye/Downloads/xxx5/src'
+make[1]: Entering directory '/c/Users/taye/Downloads/xxx5'
+make[2]: Entering directory '/c/Users/taye/Downloads/xxx5'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/local/share/man/man1'
+ /usr/bin/install -c -m 644 shc.1 '/usr/local/share/man/man1'
+make[2]: Leaving directory '/c/Users/taye/Downloads/xxx5'
+make[1]: Leaving directory '/c/Users/taye/Downloads/xxx5'
+```
+```
+taye@taye-PC MINGW64 /c/Users/taye/Downloads/xxx5
+$ shc -f c.bash
+C:\msys64\usr\local\bin\shc.exe: No such file or directory
+
+```
+???
