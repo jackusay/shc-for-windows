@@ -1,6 +1,8 @@
 # shc-for-windows
 (shc) Shell script compiler for Windows
 
+**error**
+
 works? in windows 7 64 bit
 
 ref https://github.com/neurobin/shc/issues/22
@@ -99,5 +101,16 @@ result:
 $ shc -f d.bash
 C:\msys64\usr\local\bin\shc.exe: No error
 shc Unknown shell (bash.exe): specify [-i][-x][-l]
+```
+???
+
+---
+
+others pc:
+
+```
+λ shc
+/c/Users/user/bin/cmder/bin/shc: line 7: syntax error near unexpected token `newline'
+/c/Users/user/bin/cmder/bin/shc: line 7: `<!DOCTYPE html>'
 ```
 ???
