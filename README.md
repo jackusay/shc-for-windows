@@ -114,3 +114,8 @@ others pc:
 /c/Users/user/bin/cmder/bin/shc: line 7: `<!DOCTYPE html>'
 ```
 ???
+
+---
+Understanding SHC
+https://www.linux-magazine.com/Online/Features/SHC-Shell-Compiler
+
